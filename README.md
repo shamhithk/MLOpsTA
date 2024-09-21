@@ -79,8 +79,27 @@ From the Vertex AI Studio you can test and customize prompts for different gener
 
 Tuning (fine-tuning): This is one of the ways to enhance LLM responses, usually works best when you have large labelled data. Resource-extensive method, considered after prompt engineering and RAG. Approaches like Parameter-efficient-finetuning and Full-finetuning are available in tuning features. Vertex AI Agent Builder is something to look into if you’re building LLM applications.
 
+## Data
+### Feature Store
+Vertex AI Feature Store is a managed, cloud-native feature store service that's integral to Vertex AI. It streamlines your ML feature management and online serving processes by letting you manage your feature data in a BigQuery table or view. You can then serve features online directly from the BigQuery data source.
 
+The workflow to set up and start online serving using Vertex AI Feature Store can be summarized as follows:
 
+- Prepare your data source in BigQuery.
+
+- Optional: Register your data sources by creating feature groups and features.
+
+- Set up online store and feature view resources to connect the feature data sources with online serving clusters.
+
+- Serve the latest feature values online from a feature view.
+
+### Datasets
+You can use a managed dataset to provide the source data used to train AutoML and custom models on Vertex AI. A managed dataset is required for AutoML and is optional for custom training.
+You can create managed datasets for training AutoML models by using the Google Cloud console or the Vertex AI API. The instructions for how to do this slightly vary based on your data type and model objective. Start by preparing your training data.
+<img width="1506" alt="Screenshot 2024-09-21 at 3 30 18 PM" src="https://github.com/user-attachments/assets/81894bb8-dc8f-4935-9701-216510329f00">
+
+Data split
+<img width="876" alt="Screenshot 2024-09-21 at 3 31 21 PM" src="https://github.com/user-attachments/assets/425b7151-e849-46a4-98eb-020d987d09ec">
 
 
 
