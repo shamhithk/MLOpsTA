@@ -43,7 +43,7 @@ Below is an example of the pipeline “LLM -text generation evaluation pipeline 
 ## Notebooks:
 ### Colab Enterprise:
 As the name says Colab enterprise is the enterprise -grade version of Google Colab, a cloud based Jupyter notebook environment. It is designed to meet the needs of business by providing enhanced security, collaboration features and integration with enterprise tools and data sources. Frameworks and compute resource of our choice can be selected depending on the use-case
-
+<img width="1502" alt="Screenshot 2024-09-21 at 3 21 03 PM" src="https://github.com/user-attachments/assets/44371d12-4ef3-4964-9119-0e90a602f9b3">
 ### Workbench: 
 Vertex AI Workbench is part of Google Cloud's Vertex AI platform, which provides tools and services for building, deploying, and managing ML models at scale. Workbench serves as an integrated environment where you can:
 - Develop and experiment with ML models using JupyterLab.
@@ -62,7 +62,8 @@ Evaluate your prompts against select quality metrics
 Tune models to get tailored responses
 Ground model output to Vertex AI Search or Google Search
 Get the Vertex AI API code to implement your work
-
+ 
+<img width="1491" alt="Screenshot 2024-09-21 at 3 22 01 PM" src="https://github.com/user-attachments/assets/7da92546-9891-4b2f-bd19-86d930bc167e">
 Unfortunately, you can’t access all features on your free google account. Tuning and Advanced parameter features are available if you upgrade your free-trial account to standard billing account.
 
 Vertex AI studio prompt categories:
