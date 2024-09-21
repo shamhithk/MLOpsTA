@@ -1,10 +1,11 @@
-# Vertex AI
+# ![Google Cloud](https://avatars.githubusercontent.com/u/2810941?s=60&v=4) Google Cloud Vertex AI
 ## Overview:
 Vertex AI is a machine learning (ML) platform that lets you train and deploy ML models and AI applications, and customize large language models (LLMs) for use in your AI-powered applications. Vertex AI combines data engineering, data science, and ML engineering workflows, enabling your teams to collaborate using a common toolset and scale your applications using the benefits of Google Cloud. For folks using different cloud services, it is similar to AWS SageMaker, Azure ML Studio, etc.
 Please refer to the official documentation for more detailed concepts and working of the services 
 
 ## How to setup Vertex AI in GCP console
 After creating your project in GCP, search for /Vertex AI in search bar, and then you'll be landed in the homepage where you have to enable all recommended APIs to start using Vertex AI services as shown in the image below.
+![Screenshot 2024-09-20 at 12 55 14 PM](https://github.com/user-attachments/assets/c604c64e-fe4a-4dd1-8b6d-e520757fb5eb)
 
 
 
@@ -14,7 +15,7 @@ Further, a brief introduction to all the services in Vertex AI is provided secti
 ### Model Garden: 
 Model Garden in Vertex AI is a feature within Google Cloud's Vertex AI platform that offers a curated collection of pre-trained and fine-tunable machine learning and language models. These models are designed to help developers and data scientists accelerate their AI/ML projects by providing ready-to-use models for various tasks, such as natural language processing (NLP), computer vision, and more. You can filter these models by modalities( artifact format), providers and the features models support. Keep in mind while testing LLM’s might not be expensive, deploying few closed models is a lot more expensive usually few thousand dollars per month. Always be sure to check the price before deploying LLM.
 
-
+![Screenshot 2024-09-20 at 12 53 58 PM](https://github.com/user-attachments/assets/681b725b-1491-4e61-bbfc-e999e6a02dc8)
 
 
 
@@ -26,11 +27,15 @@ You can build pipelines in Kubeflow and migrate the files to Vertex AI pipelines
 You can create custom pipelines, use default templates from the template gallery, or upload YAML / XML pipeline files. To run the pipeline you have to give a place to store the outputs of the particular pipeline, usually cloud storage in GCP for this case.
 
 
+![Screenshot 2024-09-20 at 1 03 51 PM](https://github.com/user-attachments/assets/5dad7b86-f1af-466a-9f89-1db2aefdf817)
+
+
 
 
 
 Below is an example of the pipeline “LLM -text generation evaluation pipeline from the template gallery”. You can store individual components of a pipeline to use later for other projects too.
 
+![Screenshot 2024-09-20 at 8 19 38 PM](https://github.com/user-attachments/assets/3289aabc-27ce-486e-b3f6-a38d3f8b10ef)
 
 
 
